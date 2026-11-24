@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="foicedoagouro"
+version="1.0.0"
+displayName="Foice do Agouro"
+authors=""
+description='''Foice do Agouro — item 3D animado usando GeckoLib 4.'''
+
+[[dependencies.foicedoagouro]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.foicedoagouro]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.foicedoagouro]]
+modId="geckolib"
+mandatory=true
+versionRange="[4.8.5,)"
+ordering="AFTER"
+side="BOTH"
